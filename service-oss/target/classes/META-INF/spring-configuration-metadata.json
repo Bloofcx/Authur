@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "oss.aliyun",
+      "type": "com.cx.srb.oss.properties.OssProperties",
+      "sourceType": "com.cx.srb.oss.properties.OssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "oss.aliyun.a-c-c-e-s-s-k-e-y-i-d",
+      "type": "java.lang.String",
+      "sourceType": "com.cx.srb.oss.properties.OssProperties"
+    },
+    {
+      "name": "oss.aliyun.a-c-c-e-s-s-k-e-y-s-e-c-r-e-t",
+      "type": "java.lang.String",
+      "sourceType": "com.cx.srb.oss.properties.OssProperties"
+    },
+    {
+      "name": "oss.aliyun.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.cx.srb.oss.properties.OssProperties"
+    },
+    {
+      "name": "oss.aliyun.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.cx.srb.oss.properties.OssProperties"
+    },
+    {
+      "name": "oss.aliyun.b-u-c-k-e-t-n-a-m-e",
+      "type": "java.lang.String",
+      "sourceType": "com.cx.srb.oss.properties.OssProperties"
+    },
+    {
+      "name": "oss.aliyun.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.cx.srb.oss.properties.OssProperties"
+    },
+    {
+      "name": "oss.aliyun.e-n-d-p-o-i-n-t",
+      "type": "java.lang.String",
+      "sourceType": "com.cx.srb.oss.properties.OssProperties"
+    },
+    {
+      "name": "oss.aliyun.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.cx.srb.oss.properties.OssProperties"
+    }
+  ],
+  "hints": []
+}

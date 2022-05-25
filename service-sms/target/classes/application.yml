@@ -1,0 +1,39 @@
+server:
+  port: 8120
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+  application:
+    name: service-sms
+  profiles:
+    active: dev
+  redis:
+    database: 0
+    timeout: 3000ms
+    lettuce:
+      pool:
+        max-wait: -1
+        max-active: 20
+        max-idle: 8
+        min-idle: 0
+    host: 192.168.28.129
+sms:
+  txyun:
+    sms-sdk-app-id: 1400634173
+    template-id: 1306008
+    sign-name: '木羽编程公众号'
+    region: ap-guangzhou
+    secret-id: AKIDqVu3wYMuCDxQdaGfogHacOt75oFPIwIN
+    secret-key: pNfhRu73i6E5fy0lFSO3RYO1NSlob7MK
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 10000 #连接超时配置
+        readTimeout: 60000 #执行超时配置
+  sentinel:
+    enabled: true

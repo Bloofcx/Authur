@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+<contextName>gunxueqiucx</contextName>
+
+    <!--日志的输出记录-->
+    <property name="log.path" value="D:/project/srb_log/oss"/>
+
+    <!--控制台日志格式：彩色日志-->
+    <!-- magenta:洋红 -->
+    <!-- boldMagenta:粗红-->
+    <!-- cyan:青色 -->
+    <!-- white:白色 -->
+    <!-- magenta:洋红 -->
+    <property name="CONSOLE_LOG_PATTERN"
+              value="%yellow(%date{yyyy-MM-dd HH:mm:ss}) %highlight([%-5level]) %green(%logger) %msg%n"/>
+
+    <!--文件日志格式-->
+
+    <property name="FILE_LOG_PATTERN"
+    value="%date{yyyy-MM-dd HH:mm:ss} [%-5level] %thread %file:%line %logger %msg%n" />
+    <property name="ENCODING" value="UTF-8"/>
+
+    <!--控制台的日志-->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+            <charset>${ENCODING}</charset>
+        </encoder>
+    </appender>
+
+    <!--文件的日志-->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <!--<append>默认 true，
+        日志被追加到文件结尾，如果是 false，服务重启后清空现存文件。-->
+        <file>${log.path}/log.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+            <charset>${ENCODING}</charset>
+        </encoder>
+    </appender>
+
+    <!--滚动文件日志-->
+    <appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.path}/log-rolling.log</file>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+            <charset>${ENCODING}</charset>
+        </encoder>
+
+        <!--滚动日志的记录策略-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--日志归档路径以及格式-->
+            <fileNamePattern>${log.path}/info/log-rolling-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!--归档日志保留的最大数量-->
+            <maxHistory>15</maxHistory>
+
+            <!--设置触发滚动时机-->
+            <!--基于实践策略的触发滚动策略,单个文件大于1KB时生成新的文件-->
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>1MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+
+        </rollingPolicy>
+
+    </appender>
+
+   <!--springProfile : 记录多套环境 dev,test,prod-->
+    <springProfile name="dev,test">
+        <!--日志记录器-->
+        <!--name : 用来指定受此约束的包或者类
+            level: 设置打印级别 -->
+    <logger name="com.cx" level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="ROLLING_FILE"/>
+    </logger>
+    </springProfile>
+
+    <springProfile name="prod">
+        <logger name="com.cx" level="INFO">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="FILE"/>
+        </logger>
+    </springProfile>
+</configuration>

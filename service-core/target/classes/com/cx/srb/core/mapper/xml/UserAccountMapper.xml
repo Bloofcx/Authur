@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cx.srb.core.mapper.UserAccountMapper">
+
+    <update id="updateUserAccount">
+        UPDATE user_account
+        SET amount = amount + #{amount},freeze_amount = freeze_amount + #{freezeAmount}
+        WHERE user_id = ( SELECT id FROM user_info WHERE bind_code = #{bindCode})
+    </update>
+</mapper>

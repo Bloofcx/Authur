@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="288fcddf-b178-4349-a3ee-24bcc94ba672" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="25AwZTmxOXSxflODYW6yGzb1sC7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project2\srb\service-core\src\main\java\com\cx\srb\core\utils" />
+      <recent name="D:\Project2\srb\service-core\src\main\java\com\cx\srb\core\enum" />
+      <recent name="D:\Project2\srb\service-core\src\main\java\com\cx\srb\core\hfb" />
+      <recent name="D:\Project2\srb\common\src\main\java\com\cx\common\util" />
+      <recent name="D:\Project2\srb\serivce-gateway\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cx.srb.core.controller.api" />
+      <recent name="com.cx.srb.core.controller.admin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServerCoreMain8110">
+    <configuration name="JwtTest.testJwtCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwt-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JwtTest" />
+      <option name="METHOD_NAME" value="testJwtCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtTest.testJwtParsed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwt-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JwtTest" />
+      <option name="METHOD_NAME" value="testJwtParsed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-sms" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SmsTest" />
+      <option name="METHOD_NAME" value="testSend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerCoreMain8110" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cx.authur.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cx.authur.core.ServerCoreMain8110" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceGatewayMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="serivce-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cx.ServiceGatewayMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOssMain8130" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-oss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cx.authur.oss.ServiceOssMain8130" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceSMSMain8120" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cx.authur.sms.ServiceSMSMain8120" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServerCoreMain8110" />
+        <item itemvalue="Spring Boot.ServiceGatewayMain80" />
+        <item itemvalue="JUnit.JwtTest.testJwtParsed" />
+        <item itemvalue="JUnit.JwtTest.testJwtCreated" />
+        <item itemvalue="JUnit.SmsTest.testSend" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="288fcddf-b178-4349-a3ee-24bcc94ba672" name="Changes" comment="" />
+      <created>1644983256628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644983256628</updated>
+      <workItem from="1644983257964" duration="7643000" />
+      <workItem from="1645013139904" duration="773000" />
+      <workItem from="1645016805019" duration="349000" />
+      <workItem from="1645061834809" duration="4054000" />
+      <workItem from="1645084031488" duration="8581000" />
+      <workItem from="1645097359727" duration="20000" />
+      <workItem from="1645360673387" duration="2695000" />
+      <workItem from="1645363422197" duration="960000" />
+      <workItem from="1645364510802" duration="3146000" />
+      <workItem from="1645441667418" duration="2040000" />
+      <workItem from="1645450770732" duration="279000" />
+      <workItem from="1645451234763" duration="1743000" />
+      <workItem from="1645512214583" duration="3321000" />
+      <workItem from="1645582190777" duration="10925000" />
+      <workItem from="1645626059673" duration="2355000" />
+      <workItem from="1645667043310" duration="1201000" />
+      <workItem from="1645670271594" duration="10806000" />
+      <workItem from="1645703057942" duration="1755000" />
+      <workItem from="1645711423998" duration="961000" />
+      <workItem from="1645781056530" duration="3764000" />
+      <workItem from="1646056696261" duration="8000" />
+      <workItem from="1646309564210" duration="1990000" />
+      <workItem from="1646315200239" duration="24000" />
+      <workItem from="1646468073597" duration="49000" />
+      <workItem from="1646468580024" duration="86000" />
+      <workItem from="1646563534237" duration="1577000" />
+      <workItem from="1646567446675" duration="702000" />
+      <workItem from="1646571747689" duration="51000" />
+      <workItem from="1646711650480" duration="700000" />
+      <workItem from="1646724130580" duration="20000" />
+      <workItem from="1648092692127" duration="234000" />
+      <workItem from="1648432751352" duration="282000" />
+      <workItem from="1648997156219" duration="1784000" />
+      <workItem from="1648999052325" duration="1990000" />
+      <workItem from="1649031173322" duration="3553000" />
+      <workItem from="1649037684919" duration="9000" />
+      <workItem from="1649074485388" duration="4539000" />
+      <workItem from="1649259820610" duration="70000" />
+      <workItem from="1649342174144" duration="4085000" />
+      <workItem from="1649427259422" duration="5042000" />
+      <workItem from="1649515616092" duration="2526000" />
+      <workItem from="1649519676757" duration="989000" />
+      <workItem from="1649601517747" duration="4896000" />
+      <workItem from="1649688428422" duration="2908000" />
+      <workItem from="1649775383061" duration="3383000" />
+      <workItem from="1649862961692" duration="2800000" />
+      <workItem from="1649947502001" duration="683000" />
+      <workItem from="1650121215207" duration="2003000" />
+      <workItem from="1650207259929" duration="1107000" />
+      <workItem from="1650529305397" duration="1871000" />
+      <workItem from="1650637363549" duration="1172000" />
+      <workItem from="1650762752901" duration="19855000" />
+      <workItem from="1651131861475" duration="4218000" />
+      <workItem from="1651460249342" duration="696000" />
+      <workItem from="1651733718244" duration="31000" />
+      <workItem from="1652095022943" duration="1617000" />
+      <workItem from="1652096675230" duration="2926000" />
+      <workItem from="1652317476852" duration="88000" />
+      <workItem from="1652428599197" duration="92000" />
+      <workItem from="1652444889198" duration="471000" />
+      <workItem from="1652961101731" duration="949000" />
+      <workItem from="1653459717289" duration="2963000" />
+      <workItem from="1653462996102" duration="253000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/cx/common/util/RegexValidateUtils.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/cx/common/util/RegexValidateUtils.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/service-core/src/main/java/com/cx/authur/core/service/impl/UserBindServiceImpl.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
