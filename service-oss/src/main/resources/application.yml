@@ -11,7 +11,7 @@ server:
   port: 8130
 oss:
   aliyun:
-    endpoint: https://oss-cn-beijing.aliyuncs.com
-    access-key-id: LTAI5t8CNiY2dDpKeWGsUE7s
-    access-key-secret: ikYeYzM4zNdLsUUZe2Pv9PZOA8qh8e
-    bucket-name: elden
+    endpoint: 
+    access-key-id:
+    access-key-secret:
+    bucket-name:

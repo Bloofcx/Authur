@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="288fcddf-b178-4349-a3ee-24bcc94ba672" name="Changes" comment="" />
+    <list default="true" id="288fcddf-b178-4349-a3ee-24bcc94ba672" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/service-oss/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oss/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-sms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-sms/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,6 +231,7 @@
       <workItem from="1652961101731" duration="949000" />
       <workItem from="1653459717289" duration="2963000" />
       <workItem from="1653462996102" duration="253000" />
+      <workItem from="1653463409530" duration="66000" />
     </task>
     <servers />
   </component>
